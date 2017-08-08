@@ -1,0 +1,34 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd">
+    <!-- 设定缓存的默认数据过期策略 -->
+    <defaultCache
+            maxElementsInMemory="20000"
+            eternal="false"
+            overflowToDisk="false"
+            timeToIdleSeconds="200"
+            timeToLiveSeconds="600"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"/>
+
+    <cache name="token"
+           eternal="false"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>
+    <cache name="department"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>
+    <cache name="post"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="6000">
+    </cache>
+    <cache name="jobGrade"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="6000">
+    </cache>
+    <cache name="gradesystem"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>
+</ehcache>

@@ -1,0 +1,10 @@
+good/boot/hello/filter/myCORSFilter.class
+good/boot/hello/Swagger2.class
+good/boot/hello/Application.class
+good/boot/hello/dao/jdbctemplate/UserDao.class
+good/boot/hello/annotations/CheckToken.class
+good/boot/hello/aspect/WebLogAspect.class
+good/boot/hello/interceptor/SqlInterceptor.class
+good/boot/hello/dao/jdbctemplate/BaseDao.class
+good/boot/hello/dao/jdbctemplate/UserDaoImpl.class
+good/boot/hello/task/ScheduledTasks.class
